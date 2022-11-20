@@ -1,5 +1,5 @@
 class CreateMovies < ActiveRecord::Migration[6.1]
-  def change
+  def change 
     create_table :movies do |t|
       t.string :title
       t.integer :release_date
